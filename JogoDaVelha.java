@@ -23,7 +23,7 @@ public class JogoDaVelha {
             normalMode = jogoModo == 1 ? true : false;
 
 
-            desenhaTabuleiro(tabuleiro, "JOGADOR: " + ply);
+            desenhaTabuleiro(tabuleiro, "JOGADOR:  " + ply);
 
             while (winner == Resultado.NADA) {
                     while (true) {
